@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+    --container-width: 1270px;
+    --container-padding: 15px;
+    --secondary: #4E180C;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #e6d8c8;
+    color: #8eb1d2;
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    min-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+
+.header {
+    /*min-height: 940px;*/
+    /*background: url(../img/main/header.jpg) no-repeat;*/
+    background-size: 100%;
+    padding-top: 30px;
+    color: red;
+}
+
+/* Nav */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+}
+
+.logo_img {
+    width: 40px;
+    height: 40px;
+}
